@@ -1,0 +1,5 @@
+2023/08/13-14:37:15.010 2cf4 Recovering log #12
+2023/08/13-14:37:15.046 2cf4 Level-0 table #14: started
+2023/08/13-14:37:15.083 2cf4 Level-0 table #14: 29847 bytes OK
+2023/08/13-14:37:15.284 2cf4 Delete type=0 #12
+2023/08/13-14:37:15.284 2cf4 Delete type=3 #11

@@ -1,0 +1,151 @@
+{
+    "title":"PF2e - Vyklade & Wyrm's Watch Reaper Class",
+    "description":"<p>A Foundry module for Vyklade & Wyrm's Watch Reaper class for Pathfinder 2nd Edition!</p><p>Check out <a href='https://scribe.pf2.tools/v/Lpmolb4Q'>Vyklade's Book of Homebrew</a></p><p>Check out <a href='https://www.patreon.com/user?u=70815503'>Wyrm's Watch Patereon</a></p>",
+    "version":"1.0.0",
+    "relationships":{
+        "systems":[
+            {
+                "id":"pf2e",
+                "type":"system",
+                "compatibility":{
+                    "minimum":"5.1.0"
+                }
+            }
+        ]
+    },
+    "socket":true,
+    "packs":[
+        {
+            "name":"reaper-actors",
+            "label":"Reaper Actors",
+            "path":"packs/reaper-actors.db",
+            "system":"pf2e",
+            "type":"Actor",
+            "private":false,
+            "flags":{
+                
+            }
+        },
+        {
+            "name":"reaper-journals",
+            "label":"Reaper Journals",
+            "path":"packs/reaper-journals.db",
+            "system":"pf2e",
+            "type":"JournalEntry",
+            "private":false,
+            "flags":{
+                
+            }
+        },
+        {
+            "label":"Reaper Feats/Features",
+            "name":"reaper-feats-features",
+            "path":"packs/reaper-feats-features.db",
+            "system":"pf2e",
+            "type":"Item",
+            "private":false,
+            "flags":{
+                
+            }
+        },
+        {
+            "label":"Reaper Actions/Effects",
+            "name":"reaper-actions-effects",
+            "path":"packs/reaper-actions-effects.db",
+            "system":"pf2e",
+            "type":"Item",
+            "private":false,
+            "flags":{
+                
+            }
+        },
+        {
+            "label":"Reaper Spells",
+            "name":"reaper-spells",
+            "path":"packs/reaper-spells.db",
+            "system":"pf2e",
+            "type":"Item",
+            "private":false,
+            "flags":{
+                
+            }
+        }
+    ],
+    "packFolders":[
+        {
+            "name":"Reaper",
+            "sorting":"a",
+            "packs":[
+                "reaper-journals",
+                "reaper-feats-features",
+                "reaper-actions-effects",
+                "reaper-spells",
+                "reaper-actors"
+            ]
+        }
+    ],
+    "flags":{
+        "pf2e-reaper":{
+            "pf2e-homebrew":{
+                "featTraits":{
+                    "reaper":"Reaper",
+                    "soul1":{
+                        "label":"Soul 1",
+                        "description":"<p>Feats or Soul Arts with this trait require Soul Shards equal to the value listed to activate.</p>"
+                    },
+                    "soul2":{
+                        "label":"Soul 2",
+                        "description":"<p>Feats or Soul Arts with this trait require Soul Shards equal to the value listed to activate.</p>"
+                    },
+                    "harvest":{
+                        "label":"Harvest",
+                        "description":"Class Features, Feats, or Spells with this Trait can either generate Soul Shards, Hit Points, or Temporary HP. They must be a being with soulforce present within them, living or undead.</p><p>While you can use abilities with the Harvest Traits on beings without soulforce, such as Constructs, you cannot generate Soul Shards, Hit Points, or Temporary HP in doing so."
+                    },
+                    "wind-up":{
+                        "label":"Wind Up",
+                        "description":"Feats or Soul Arts with this trait modify and enhance the next Strike you make on your Turn, even if that Strike is part of another Action."
+                    },
+                    "fiend" : "Fiend"
+                },
+                "spellTraits":{
+                    "reaper":"Reaper",
+                    "harvest":{
+                        "label":"Harvest",
+                        "description":"<p>Class Features, Feats, or Spells with this Trait can either generate Soul Shards, Hit Points, or Temporary HP. They must be a being with soulforce present within them, living or undead.</p><p>While you can use abilities with the Harvest Traits on beings without soulforce, such as Constructs, you cannot generate Soul Shards, Hit Points, or Temporary HP in doing so.</p>"
+                    }
+                }
+            }
+        }
+    },
+    "url":"https://github.com/yoshisman8/pf2e-reaper",
+    "manifest":"https://raw.githubusercontent.com/yoshisman8/Vyk-Homebrew/main/module.json",
+    "download":"https://github.com/yoshisman8/Vyk-Homebrew/archive/refs/heads/main.zip",
+    "id":"pf2e-reaper",
+    "authors":[
+        {
+            "name":"Vyklade",
+            "url":"https://ko-fi.com/vyklade",
+            "flags":{
+                
+            }
+        },
+        {
+            "name":"Helpful Drow",
+            "url":"https://www.patreon.com/user?u=70815503",
+            "flags":{
+                
+            }
+        },
+        {
+            "name":"Darthawesome",
+            "url":"https://www.patreon.com/user?u=70815503",
+            "flags":{
+                
+            }
+        }
+    ],
+    "compatibility":{
+        "minimum":"11",
+        "verified":"11"
+    }
+}
